@@ -1,0 +1,25 @@
+main {
+    background: white;
+
+}
+
+
+.logo {
+    margin: 0 auto;
+    width: 272px;
+}
+
+.searchbar {
+    margin: 0 auto;
+    width: 450px;
+    padding-top: 20px;
+}
+
+.searchbar input {
+    height: 45px;
+    width: 450px;
+    padding: 6px;
+    /*border: 2px lightgray;*/
+    border-radius: 25px;
+    box-sizing: border-box;
+}
