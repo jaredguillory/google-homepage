@@ -1,8 +1,6 @@
 main {
     background: white;
-
 }
-
 
 .logo {
     margin: 0 auto;
@@ -12,14 +10,52 @@ main {
 .searchbar {
     margin: 0 auto;
     width: 450px;
-    padding-top: 20px;
+    padding: 25px;
 }
 
 .searchbar input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
     height: 45px;
     width: 450px;
-    padding: 6px;
-    /*border: 2px lightgray;*/
+    padding: 6px 20px;
+    /* border: 2px lightgray; */
     border-radius: 25px;
     box-sizing: border-box;
+}
+
+.searchbar input:hover {
+    box-shadow: 0px 0px 8px lightgray;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px;
+    color:#f8f8f8;
+}
+
+.button input {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    height: 36px;
+    min-width: 54px;
+    font-size: 14px;
+    color: #6d6d6d;
+    background-color: #f8f8f8;
+    border: 1px #f8f8f8;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button input:hover {
+    background-color: #f8f8f8;
+    border: 1px #6d6d6d;
+    color: #222;
 }
