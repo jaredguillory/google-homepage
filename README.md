@@ -1,0 +1,1 @@
+This is my first Odin project. I aim to recreate the look of the Google homepage, without functionality. 
